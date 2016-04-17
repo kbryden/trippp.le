@@ -3,7 +3,7 @@ navButton.addEventListener('click', function() {
   console.log('clicky!!!');
   document
     .querySelector('body')
-    .classlist
+    .classList
     .toggle('nav-open');
 });
 
@@ -11,7 +11,7 @@ var closeButton = document.querySelector('.close-icon');
 closeButton.addEventListener('click', function() {
     console.log('close it!');
     document
-      .QuerySelector('body')
-      .classlist
+      .querySelector('body')
+      .classList
       .toggle('nav-open');
 });
